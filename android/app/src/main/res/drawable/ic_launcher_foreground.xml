@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#064e3b"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    
+    <!-- Mosque dome -->
+    <path
+        android:fillColor="#d4a853"
+        android:pathData="M54,24 L54,20 M54,24 Q40,30 36,44 L36,56 L72,56 L72,44 Q68,30 54,24 Z"/>
+    
+    <!-- Crescent -->
+    <path
+        android:fillColor="#d4a853"
+        android:pathData="M62,28 A8,8 0 1,0 62,44 A6,6 0 1,1 62,28"/>
+    
+    <!-- Minaret left -->
+    <path
+        android:fillColor="#d4a853"
+        android:pathData="M40,56 L40,70 L44,70 L44,56 Z M42,50 L42,56 L40,56 L44,56 L42,50 Z"/>
+    
+    <!-- Minaret right -->
+    <path
+        android:fillColor="#d4a853"
+        android:pathData="M64,56 L64,70 L68,70 L68,56 Z M66,50 L66,56 L64,56 L68,56 L66,50 Z"/>
+    
+    <!-- Door -->
+    <path
+        android:fillColor="#022c22"
+        android:pathData="M50,70 L50,56 Q54,52 58,56 L58,70 Z"/>
+    
+    <!-- Stars -->
+    <path
+        android:fillColor="#d4a853"
+        android:pathData="M30,36 L31,38 L33,38 L31.5,39.5 L32,42 L30,40.5 L28,42 L28.5,39.5 L27,38 L29,38 Z"/>
+    <path
+        android:fillColor="#d4a853"
+        android:pathData="M78,36 L79,38 L81,38 L79.5,39.5 L80,42 L78,40.5 L76,42 L76.5,39.5 L75,38 L77,38 Z"/>
+</vector>
